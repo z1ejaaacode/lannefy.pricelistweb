@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pembayaran DANA</title>
+  <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- TIMER -->
+  <div class="timer-box">
+    <p>Selesaikan pembayaran dalam</p>
+    <h2 id="timer">07:00</h2>
+  </div>
+
+  <!-- STRUK -->
+  <div class="receipt">
+
+    <div class="receipt-header">
+      <img src="../pict/detail.png">
+      <h3>Detail Pembayaran</h3>
+    </div>
+
+    <div class="receipt-body">
+      <div class="row">
+        <span>Username</span>
+        <span id="rUser">-</span>
+      </div>
+      <div class="row">
+        <span>Layanan</span>
+        <span id="rService">-</span>
+      </div>
+      <div class="row">
+        <span>Pesanan</span>
+        <span id="rQty">-</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="total">
+      <span>Total</span>
+      <span id="rTotal">Rp 0</span>
+    </div>
+
+  </div>
+
+  <!-- PAYMENT INFO -->
+  <div class="payment-info">
+    <h3>Informasi Pembayaran</h3>
+
+    <p>Lakukan pembayaran ke nomor DANA berikut:</p>
+
+    <div class="dana-box">
+      <img src="../pict/dana.png">
+
+      <div class="dana-info">
+        <strong id="danaNumber">0831-7180-4227</strong>
+        <p>ERTI</p>
+      </div>
+
+      <img src="../pict/copy.png" id="copyDana">
+    </div>
+
+    <p class="pay-note">
+      Dengan nominal <b id="payAmount">Rp 0</b>
+    </p>
+  </div>  
+
+  <!-- CONFIRM BOX -->
+  <div class="confirm-box" id="confirmBox">
+    <p>Sudah melakukan pembayaran? konfirmasi disini.</p>
+    <button id="confirmAdminBtn">Konfirmasi ke admin</button>
+  </div>
+
+</div>
+
+<!-- TOAST -->
+<div id="toast">Berhasil Disalin</div>
+
+<!-- POPUP (FIXED ID) -->
+<div class="popup" id="popupConfirm">
+  <div class="popup-box">
+
+    <div class="popup-header">
+      <img src="../pict/info.png">
+      <span>Konfirmasi Pesanan</span>
+    </div>
+
+    <p>
+      Konfirmasi pesanan akan diarahkan ke WhatsApp.<br><br>
+      Kirim pesan yang sudah tertera beserta bukti transfer.<br><br>
+      Terimakasih sudah order @Lannefy.id
+    </p>
+
+    <div class="popup-action">
+      <button class="btn-cancel" id="cancelConfirm">Batal</button>
+      <button class="btn-confirm" id="sendWa">Lanjut ke WhatsApp</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="pay.js"></script>
+</body>
+</html>
