@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lannefy</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css1.css">
+  <link rel="stylesheet" href="css2.css">
+  <link rel="stylesheet" href="css3.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="left">
+      <img src="pict/nav.png" class="hamburger" id="menuBtn">
+      <div class="logo">Lannefy.id</div>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    
+    <nav class="menu">
+      <a href="#home"><img src="pict/home.png"> Home</a>
+      <a href="#price"><img src="pict/pricelist.png"> Price List</a>
+      <a href="#aturan"><img src="pict/aturan.png"> Aturan Order</a>
+     
+    </nav>
+  </aside>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- CONTENT -->
+  <main class="content">
+
+    <!-- HOME -->
+    <section id="home">
+      <div class="hero">
+        <div class="hero-text">
+          <p class="desc">
+            Welcome to Lannefy.id SMM Panel<br>
+            Menyediakan layanan boost followers dan kebutuhan sosial media lainnya dengan aman, cepat, dan harga termurah.
+          </p>
+          <br>
+          <div class="fake-btn">Order Sekarang!</div>
+        </div>
+
+        <div class="hero-image">
+          <img src="pict/banner.png" class="hero-banner">
+        </div>
+      </div>
+      <p class="desc">Baca Aturan Order terlebih dahulu sebelum membuat pesanan</p>
+    </section>
+    
+    <!-- REKOMENDASI -->
+
+
+
+    <!-- PRICE -->
+    <section id="price">
+      <div class="price-box">
+
+        <h2>PRICE LIST</h2>
+        <p style="font-size: 14px; margin-top:10px;">
+          Pilih layanan dan isi username setelah memilih layanan.
+        </p>
+        <br>
+
+        <!-- SELECT -->
+        <div class="option-select" id="optionBtn">
+          <img src="pict/option.png">
+          <span id="selectedOption">Pilih Layanan</span>
+        </div>
+
+        <!-- DROPDOWN -->
+        <div class="option-list" id="optionList">
+
+          <div class="option-item" data-target="supercheap"><img src="pict/instagram.png"> Followers IG Super Murah (Drop+)</div>
+          <div class="option-item" data-target="hq"><img src="pict/instagram.png"> Followers IG High Quality (Awet)</div>
+          <div class="option-item" data-target="indo"><img src="pict/instagram.png"> Followers IG Indonesia</div>
+          <div class="option-item" data-target="like"><img src="pict/instagram.png"> Likes Instagram (Awet 75-90%)</div>
+          <div class="option-item" data-target="views"><img src="pict/instagram.png"> Reel Instagram views (All Video)</div>
+          <div class="option-item" data-target="story"><img src="pict/instagram.png"> Story Views Instagram (Indo)</div>
+          <div class="option-item" data-target="viewstt"><img src="pict/tiktok.png"> Views post TikTok</div>
+          <div class="option-item" data-target="likestt"><img src="pict/tiktok.png"> Likes Post TikTok</div>
+          <div class="option-item" data-target="folltt"><img src="pict/tiktok.png"> Followers TikTok S-1 (High Quality)</div>
+
+        </div>
+
+        <!-- PRICE LIST -->
+        <div class="price-list">
+
+          <!-- (SEMUA PRICE LIST KAMU — TIDAK DIUBAH) -->
+          <!-- supercheap -->
+          <div class="price-content" id="supercheap">
+            <div class="price-item"><span>2.000 Followers</span><span>15.000</span></div>
+            <div class="price-item"><span>3.000 Followers</span><span>17.500</span></div>
+            <div class="price-item"><span>4.000 Followers</span><span>23.000</span></div>
+            <div class="price-item"><span>5.000 Followers</span><span>59.000</span></div>
+            <div class="price-item"><span>7.000 Followers</span><span>40.000</span></div>
+            <div class="price-item"><span>10.000 Followers</span><span>56.000</span></div>
+            <div class="price-item"><span>15.000 Followers</span><span>82.000</span></div>
+            <div class="price-item"><span>20.000 Followers</span><span>111.000</span></div>
+          </div>
+
+          <!-- hq -->
+          <div class="price-content" id="hq">
+            <div class="price-item"><span>500 Followers</span><span>15.000</span></div>
+            <div class="price-item"><span>1.000 Followers</span><span>18.000</span></div>
+            <div class="price-item"><span>2.000 Followers</span><span>35.000</span></div>
+            <div class="price-item"><span>3.000 Followers</span><span>52.000</span></div>
+            <div class="price-item"><span>4.000 Followers</span><span>67.000</span></div>
+            <div class="price-item"><span>5.000 Followers</span><span>83.000</span></div>
+            <div class="price-item"><span>10.000 Followers</span><span>177.000</span></div>
+          </div>
+
+          <!-- indo -->
+          <div class="price-content" id="indo">
+            <div class="price-item"><span>200 Followers</span><span>13.000</span></div>
+            <div class="price-item"><span>300 Followers</span><span>16.500</span></div>
+            <div class="price-item"><span>500 Followers</span><span>26.000</span></div>
+            <div class="price-item"><span>1.000 Followers</span><span>49.000</span></div>
+            <div class="price-item"><span>2.000 Followers</span><span>97.000</span></div>
+            <div class="price-item"><span>3.000 Followers</span><span>145.000</span></div>
+            <div class="price-item"><span>5.000 Followers</span><span>255.000</span></div>
+          </div>
+
+          <!-- like -->
+          <div class="price-content" id="like">
+            <div class="price-item"><span>4.000 Like</span><span>13.000</span></div>
+            <div class="price-item"><span>5.000 Like</span><span>15.000</span></div>
+            <div class="price-item"><span>7.000 Like</span><span>19.500</span></div>
+            <div class="price-item"><span>10.000 Like</span><span>27.000</span></div>
+            <div class="price-item"><span>15.000 Like</span><span>41.000</span></div>
+            <div class="price-item"><span>20.000 Like</span><span>55.000</span></div>
+            <div class="price-item"><span>30.000 Like</span><span>81.000</span></div>
+            <div class="price-item"><span>50.000 Like</span><span>140.000</span></div>
+          </div>
+
+          <!-- views -->
+          <div class="price-content" id="views">
+            <div class="price-item"><span>50.000 Views</span><span>13.000</span></div>
+            <div class="price-item"><span>100.000 Views</span><span>17.000</span></div>
+            <div class="price-item"><span>200.000 Views</span><span>34.000</span></div>
+            <div class="price-item"><span>300.000 Views</span><span>51.000</span></div>
+            <div class="price-item"><span>500.000 Views</span><span>85.000</span></div>
+            <div class="price-item"><span>1 Juta Views</span><span>180.000</span></div>
+          </div>
+
+          <!-- story -->
+          <div class="price-content" id="story">
+            <div class="price-item"><span>1.500 Story Views</span><span>13.000</span></div>
+            <div class="price-item"><span>2.000 Story Views</span><span>16.000</span></div>
+            <div class="price-item"><span>3.000 Story Views</span><span>23.000</span></div>
+            <div class="price-item"><span>4.000 Story Views</span><span>29.000</span></div>
+            <div class="price-item"><span>5.000 Story Views</span><span>38.000</span></div>
+          </div>
+
+          <!-- viewstt -->
+          <div class="price-content" id="viewstt">
+            <div class="price-item"><span>30.000 Views</span><span>13.000</span></div>
+            <div class="price-item"><span>50.000 Views</span><span>18.000</span></div>
+            <div class="price-item"><span>100.000 Views</span><span>37.000</span></div>
+            <div class="price-item"><span>200.000 Views</span><span>74.000</span></div>
+            <div class="price-item"><span>500.000 Views</span><span>185.000</span></div>
+            <div class="price-item"><span>1 Juta Views</span><span>370.000</span></div>
+          </div>
+
+          <!-- likestt -->
+          <div class="price-content" id="likestt">
+            <div class="price-item"><span>20.000 Like</span><span>14.000</span></div>
+            <div class="price-item"><span>30.000 Like</span><span>17.000</span></div>
+            <div class="price-item"><span>40.000 Like</span><span>22.000</span></div>
+            <div class="price-item"><span>50.000 Like</span><span>27.000</span></div>
+            <div class="price-item"><span>70.000 Like</span><span>37.000</span></div>
+            <div class="price-item"><span>100.000 Like</span><span>51.000</span></div>
+            <div class="price-item"><span>300.000 Like</span><span>152.000</span></div>
+            <div class="price-item"><span>500.000 Like</span><span>250.000</span></div>
+            <div class="price-item"><span>1 Juta Like</span><span>500.000</span></div>
+          </div>
+
+          <!-- folltt -->
+          <div class="price-content" id="folltt">
+            <div class="price-item"><span>350 Followers</span><span>13.000</span></div>
+            <div class="price-item"><span>500 Followers</span><span>16.000</span></div>
+            <div class="price-item"><span>700 Followers</span><span>21.000</span></div>
+            <div class="price-item"><span>1.000 Followers</span><span>30.000</span></div>
+            <div class="price-item"><span>2.000 Followers</span><span>60.000</span></div>
+            <div class="price-item"><span>3.000 Followers</span><span>89.000</span></div>
+            <div class="price-item"><span>5.000 Followers</span><span>150.000</span></div>
+            <div class="price-item"><span>10.000 Followers</span><span>300.000</span></div>
+          </div>
+
+        </div>
+      </div>
+         <!-- FORM ORDER (PINDAH KE LUAR PRICE BIAR GA ERROR) -->
+ <section id="order">    
+  <div class="order-box">    
+    <h3 class="order-title">Username / link-profil / link-post</h3>  
+
+    <!-- USERNAME -->    
+    <div class="input-group">    
+      <img src="pict/username.png">    
+      <input type="text" id="username" placeholder="Masukkan Username / Link">    
+    </div>    
+
+    <!-- METODE PEMBAYARAN -->    
+    <br>    
+    <h3 class="order-title">Metode Pembayaran</h3>    
+
+    <div class="payment-methods">    
+      <label class="payment-option">    
+        <input type="radio" name="payment" value="Dana" data-logo="pict/dana.png" data-name="Dana" checked>    
+        <img src="pict/dana.png"> Dana    
+      </label>    
+  
+
+      <label class="payment-option">    
+        <input type="radio" name="payment" value="Qris" data-logo="pict/qris.png" data-name="Qris">    
+        <img src="pict/qris.png"> Qris ( Segera Hadir )  
+      </label>    
+    </div>    
+
+    <!-- BUTTON -->    
+    <button class="order-btn" id="orderBtn">Buat Pesanan</button>
+
+  </div>    
+</section>  
+
+</section>    
+
+
+<!-- ATURAN -->    
+<section id="aturan">    
+  <section id="order">    
+    <div class="order-box">    
+
+      <h1 class="aturan-title">
+        <img src="pict/info.png" alt="info">
+        Aturan Order
+      </h1>    
+
+      <hr>    
+
+      <p class="aturan-list">
+        1. Akun tidak boleh privat/pribadi !<br>    
+        2. [ Khusus Instagram ] Matikan Fitur Tinjau ( Pengaturan > ikuti & undang teman > Nonaktifkan fitur tinjau ) <br>    
+        3. Selama pesanan di proses tidak boleh mengubah/mengedit bagian profil! tunggu pesanan selesai. <br>    
+        4. Order Like/Views? Matikan semua pengaturan privasi yang aktif pada postingan tersebut.  <br>
+        5. Gunakan layanan [ High Quality ] untuk hasil yang maksimal        
+        
+      </p>    
+
+      <p class="aturan-note">
+        Membuat pesanan = memahami & menyetujui aturan di atas
+      </p>    
+
+      <p class="aturan-footer">
+        TERIMAKASIH — @Lannefy.id
+      </p>    
+
+    </div>
+  </section>
+</section>
+
+</main>    
+
+
+<!-- POPUP -->
+<div class="popup" id="popup">    
+  <div class="popup-box">  
+
+    <div class="popup-header">    
+      <img src="pict/detail.png" alt="Detail">    
+      <span>Detail Pesanan</span>    
+    </div>    
+
+    <!-- ROWS DETAIL -->    
+    <div class="popup-row">    
+      <span class="label">Username</span>    
+      <span class="value" id="detailUser">-</span>    
+    </div>    
+
+    <div class="popup-row">    
+      <span class="label">Layanan</span>    
+      <span class="value" id="detailService">-</span>    
+    </div>    
+
+    <div class="popup-row">    
+      <span class="label">Pesanan</span>    
+      <span class="value" id="detailPrice">-</span>    
+    </div>    
+
+    <div class="popup-row">    
+      <span class="label">Metode Pembayaran</span>    
+      <span class="value" id="detailPayment">-</span>    
+    </div>    
+
+    <div class="divider"></div>    
+
+    <!-- TOTAL -->    
+    <div class="popup-total">    
+      <div class="total-left">    
+        <img src="pict/total.png" alt="Total">    
+        <span>Total</span>    
+      </div>    
+      <span id="detailTotal">0</span>    
+    </div>    
+
+    <!-- ACTION BUTTON -->    
+    <div class="popup-action">    
+      <button class="btn-cancel" id="cancelBtn">Ulangi</button>    
+      <button class="btn-confirm" id="confirmBtn">Konfirmasi</button>    
+    </div>    
+
+  </div>    
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
